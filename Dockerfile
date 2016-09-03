@@ -1,5 +1,8 @@
+# git clone https://github.com/ChristianHeim/monero-miner.git
+# cd monero-miner
+# docker build .
 # usage: docker run kannix/monero-miner -a cryptonight -u user -p password
-# ex: docker run kannix/monero-miner -a cryptonight -o stratum+tcp://mine.moneropool.com:3333 -u 49UEAnmaUCVP5Bpwb6jaHBSitibgqfyT9jYSu35ZTWwA4ybXXaZYeQA8Qy6hJPq8j9RRyZ5CtNuytGHFxAYJdSkaGaqSgS6 -p x --threads 4
+# ex: docker run kannix/monero-miner(imageid) -a cryptonight -o stratum+tcp://mine.moneropool.com:3333 -u 49UEAnmaUCVP5Bpwb6jaHBSitibgqfyT9jYSu35ZTWwA4ybXXaZYeQA8Qy6hJPq8j9RRyZ5CtNuytGHFxAYJdSkaGaqSgS6 -p x --threads 4
 
 FROM		ubuntu:latest
 
